@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=A5SpI1fVfvU
+
+Git
+https://github.com/Jka4/pokemon-API-react

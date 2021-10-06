@@ -1,0 +1,149 @@
+/* section01 */
+.img-background{
+    padding: 0px 0px 0px 0px;
+    width: 100% !important;
+    min-height: 720px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    opacity: 0.8 #000000;
+  }
+  .content-wrap{
+    top: calc(8.5% + 100px) !important;
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  .intro-content{
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
+  }
+  .title-pokemon{
+    font-size:2.3rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    line-height:3.4rem;
+    
+  }
+  .introduction-pokemon{
+    font-size:1.1rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+  }
+  .callout-wrap{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: calc(8.5% + 350px);
+  }
+  .content-logotipo-banner{
+    grid-column-start: 5;
+    grid-column-end: span 4;
+  }
+  .intro-logotipo-banner{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .img-logotipo-banner{
+    width: 100%;
+  }
+
+  /* section02 */
+    .section-newuser{
+        padding: 30px 0;
+        position: relative;
+    }
+    .newuser-background{
+        min-height: 220px;
+        width: 100%;
+        position: absolute;
+        top:0;
+    }
+    .grid-col{
+        display: grid;
+        column-gap: 24px;
+        grid-template-columns: repeat(12, 1fr);
+        padding: 0 24px;
+    }
+    .newuser-inter{
+        display: grid;
+        grid-column-start: 3;
+        grid-column-end: span 8;
+        grid-template-columns: 130px 1fr 1fr;
+        column-gap: 24px;
+        position: relative;
+        z-index: 1;
+        align-items: center;
+    }
+    .newuser-logo{
+        width: 140px;
+    }
+    .newuser-title{
+        font-size:1.8rem;
+        font-weight: 700;
+        font-family: 'Lato',sans-serif;
+    }
+
+    .newuser-description{
+        margin-top:1rem;
+    }
+    .newuser-button{
+        border-radius: 25px;
+    }
+    button.btn.btn-primary{
+        font-weight: 500;
+        border: 2px solid #0061af;
+        padding: 8px 24px;
+        border-radius: 999px;
+        background-color: #fff;
+        transition: background-color .3s ease;
+        color: #0061af;
+    }
+    .img-pokemon-user{
+        width: 350px;
+    }
+    /* section03 */
+    .banner-background{
+        min-height: 850px;
+        width: 100%;
+        padding: 100px 0;
+        position: relative;
+        top:0;
+    }
+    .banner-content{
+        grid-column-start: 5;
+        grid-column-end: span 4;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+    .banner-title{
+        font-size: 1.9rem;
+        font-weight: 800;
+        line-height: 1.8rem;
+    }
+    .banner-description{
+        font-size: 0.9rem;
+        font-weight: 400px;
+        color:#18242e;
+        margin-top: 30px;
+    }
+
+    /* dispositivos moviles */
+    @media(max-width:480px){
+      .newuser-inter{
+        display: block;
+      }
+      .grid-col{
+        padding: auto;
+        display: block;
+      }
+      .img-pokemon-user{
+        width: 325px;
+      }
+      .newuser-background{
+        min-height: 100%;
+      }
+    }
